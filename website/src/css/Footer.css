@@ -1,0 +1,491 @@
+.footer-content1 h1 {
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-container {
+    background-color: #003a66;
+    width: 100%;
+    color: white;
+    font-size: calc(1px + 2vw);
+    padding: 40px;
+    padding-bottom: 90px;
+}
+
+.footer-links1 div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.footer-links1 div p {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-links1 div p:hover {
+    transform: scale(1.1);
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-link2 div svg {
+    padding-right: 4%;
+    font-size: calc(2px + 2vw);
+    padding-top: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-link2 div svg:hover {
+    color: hsl(345, 75%, 51%);
+    transform: scale(1.1);
+}
+
+
+.footer-content2 h1 {
+    color: hsl(345, 75%, 51%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-content2 h6 {
+    color: rgba(255, 255, 255, 0.445);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 0px;
+    font-size: calc(1px + 2vw);
+}
+
+.footer-content2 h6:hover {
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-content2 p {
+    margin-top: 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-content2 p:hover {
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-content3 h1 {
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-content3 p {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-content3 p:hover {
+    color: hsl(345, 75%, 51%);
+}
+
+.input {
+    position: relative;
+    width: 80%;
+    background-color: rgb(250, 250, 250) !important;
+    height: 90%;
+    padding: 10px 10px 50px;
+    border-radius: 40px;
+    z-index: 5;
+}
+
+.footer-content4 h1 {
+    color: hsl(345, 75%, 51%);
+}
+
+.footer-content4 input {
+    border-radius: 20px;
+    padding: 15px 12px;
+    outline: none;
+    border: none;
+    width: 400px;
+    background-color: transparent;
+    position: absolute;
+    z-index: -2;
+}
+
+.footer-content4 label {
+    background-color: hsl(345, 75%, 51%);
+    padding: 12px 25px;
+    cursor: pointer;
+    float: right;
+    border-radius: 19px;
+    margin-top: 1px;
+}
+
+@media (min-width: 468px) {
+    .footer-content1 h1 {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-container {
+            background-color: #003a66;
+            width: 100%;
+            color: white;
+            font-size: calc(1px + 2vw);
+            padding: 40px;
+            padding-bottom: 90px;
+        }
+    
+        .footer-links1 div {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+        }
+    
+        .footer-links1 div p {
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+        }
+    
+        .footer-links1 div p:hover {
+            transform: scale(1.1);
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-link2 div svg {
+            padding-right: 4%;
+            font-size: calc(2px + 2vw);
+            padding-top: 10px;
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+        }
+    
+        .footer-link2 div svg:hover {
+            color: hsl(345, 75%, 51%);
+            transform: scale(1.1);
+        }
+    
+    
+        .footer-content2 h1 {
+            color: hsl(345, 75%, 51%);
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    
+        .footer-content2 h6 {
+            color: rgba(255, 255, 255, 0.445);
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+            margin-bottom: 0px;
+            font-size: calc(1px + 2vw);
+        }
+    
+        .footer-content2 h6:hover {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-content2 p {
+            margin-top: 0px;
+            cursor: pointer;
+            transition: all 0.5s ease-in-out;
+        }
+    
+        .footer-content2 p:hover {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-content3 h1 {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-content3 p {
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+        }
+    
+        .footer-content3 p:hover {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .input {
+            position: relative;
+            width: 80%;
+            background-color: rgb(250, 250, 250) !important;
+            height: 90%;
+            padding: 10px 10px 50px;
+            border-radius: 40px;
+            z-index: 5;
+        }
+    
+        .footer-content4 h1 {
+            color: hsl(345, 75%, 51%);
+        }
+    
+        .footer-content4 input {
+            border-radius: 20px;
+            padding: 15px 12px;
+            outline: none;
+            border: none;
+            width: 400px;
+            background-color: transparent;
+            position: absolute;
+            z-index: -2;
+        }
+    
+        .footer-content4 label {
+            background-color: hsl(345, 75%, 51%);
+            padding: 12px 25px;
+            cursor: pointer;
+            float: right;
+            border-radius: 19px;
+            margin-top: 1px;   }
+}
+
+@media (min-width: 678px) {
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    .footer-content1 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-container {
+        background-color: #003a66;
+        width: 100%;
+        color: white;
+        font-size: calc(1px + 1.5vw);
+        padding: 40px;
+        padding-bottom: 90px;
+    }
+
+    .footer-links1 div {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+    }
+
+    .footer-links1 div p {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-links1 div p:hover {
+        transform: scale(1.1);
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-link2 div svg {
+        padding-right: 4%;
+        font-size: calc(2px + 2vw);
+        padding-top: 10px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-link2 div svg:hover {
+        color: hsl(345, 75%, 51%);
+        transform: scale(1.1);
+    }
+
+
+    .footer-content2 h1 {
+        color: hsl(345, 75%, 51%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-content2 h6 {
+        color: rgba(255, 255, 255, 0.445);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        margin-bottom: 0px;
+        font-size: calc(1px + 2vw);
+    }
+
+    .footer-content2 h6:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content2 p {
+        margin-top: 0px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .footer-content2 p:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content3 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content3 p {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-content3 p:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .input {
+        position: relative;
+        width: 80%;
+        background-color: rgb(250, 250, 250) !important;
+        height: fit-content;
+        padding: 10px 10px 50px;
+        border-radius: 40px;
+        z-index: 5;
+    }
+
+    .footer-content4 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content4 input {
+        border-radius: 20px;
+        padding: 15px 12px;
+        outline: none;
+        border: none;
+        width: 400px;
+        background-color: transparent;
+        position: absolute;
+        z-index: -2;
+    }
+
+    .footer-content4 label {
+        background-color: hsl(345, 75%, 51%);
+        padding: 12px 20px;
+        cursor: pointer;
+        float: right;
+        border-radius: 25px;
+        margin-top: -2px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .footer-content1 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    footer{
+        background-color: #003a66;
+    }
+
+    .footer-container {
+        background-color: #003a66;
+        width: 80%;
+        color: white;
+        font-size: 14px !important;
+        padding: 40px;
+        margin: auto;
+    }
+
+    .footer-links1 div {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+    }
+
+    .footer-links1 div p {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-links1 div p:hover {
+        transform: scale(1.1);
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-link2 div svg {
+        padding-right: 4%;
+        font-size: calc(2px + 2vw);
+        padding-top: 10px;
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-link2 div svg:hover {
+        color: hsl(345, 75%, 51%);
+        transform: scale(1.1);
+    }
+
+
+    .footer-content2 h1 {
+        color: hsl(345, 75%, 51%);
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer-content2 h6 {
+        color: rgba(255, 255, 255, 0.445);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: calc(0.5px + 1.3vw);
+    }
+
+    .footer-content2 h6:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content2 p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .footer-content2 p:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content3 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content3 p {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+    }
+
+    .footer-content3 p:hover {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .input {
+        position: relative;
+        width: 80%;
+        background-color: rgb(250, 250, 250) !important;
+        height: fit-content;
+        padding: 10px 10px 50px;
+        border-radius: 40px;
+        z-index: 5;
+    }
+
+    .footer-content4 h1 {
+        color: hsl(345, 75%, 51%);
+    }
+
+    .footer-content4 input {
+        border-radius: 20px;
+        padding: 15px 12px;
+        outline: none;
+        border: none;
+        width: 400px;
+        background-color: transparent;
+        position: absolute;
+        z-index: -2;
+    }
+
+    .footer-content4 label {
+        background-color: hsl(345, 75%, 51%);
+        padding: 12px 20px;
+        cursor: pointer;
+        float: right;
+        border-radius: 25px;
+        margin-top: -2px;
+    }   }

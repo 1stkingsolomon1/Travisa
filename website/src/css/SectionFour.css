@@ -1,0 +1,217 @@
+.section4-article3 {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: all 1s ease-in-out;
+  }
+
+  .show{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+  
+  .section4-card {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    color: #003A66;
+    box-shadow: 2px 2px 30px rgba(194, 196, 197, 0.38);
+    margin-top: 40px;
+    transition: all 0.5s ease, color 0.5s ease;
+    border-radius: 10px;
+  }
+  
+  .section4-card:hover {
+    background-color: #003A66;
+    color: white;
+  }
+
+.section4-card:hover .section4-card-img{
+    animation: rotateZ 1s ease-in-out;
+    color: #e01e1e;
+    border-radius:50px;
+}
+
+@keyframes rotateZ {
+    0%{
+        transform: rotateZ(0deg);
+    } 
+    50%{
+        transform: rotateZ(360deg);
+    }100%{
+        transform: rotateZ(-360deg);
+        border-radius:0px;
+    }
+
+}
+
+  .section4-card-img {
+    font-size: 40px;
+    background-color: #c2c4c5;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section4-card-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section4-card-text p {
+    font-size: 14px;
+    color: inherit; 
+  }
+  
+  @media(min-width: 678px){
+    .section4-article3 {
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .section4-card {
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        color: #003A66;
+        box-shadow: 2px 2px 30px rgba(194, 196, 197, 0.38);
+        margin-top: 40px;
+        transition: all 0.5s ease, color 0.5s ease;
+        border-radius: 10px;
+      }
+      
+      .section4-card:hover {
+        background-color: #003A66;
+        color: white;
+      }
+    
+    .section4-card:hover .section4-card-img{
+        animation: rotateZ 1s ease-in-out;
+        color: #e01e1e;
+        border-radius:50px;
+    }
+    
+    @keyframes rotateZ {
+        0%{
+            transform: rotateZ(0deg);
+        } 
+        50%{
+            transform: rotateZ(360deg);
+        }100%{
+            transform: rotateZ(-360deg);
+            border-radius:0px;
+        }
+    
+    }
+    
+      .section4-card-img {
+        font-size: 40px;
+        background-color: #c2c4c5;
+        border-radius: 10px;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+      }
+      
+      .section4-card-text h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .section4-card-text p {
+        font-size: 14px;
+        color: inherit; 
+      }
+      
+  }
+
+
+  @media(min-width: 1024px){
+    .section4-article3 {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        column-gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      
+      .section4-card {
+        width:90%;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        color: #003A66;
+        box-shadow: 2px 2px 30px rgba(194, 196, 197, 0.38);
+        margin-top: 40px;
+        transition: all 0.5s ease, color 0.5s ease;
+        border-radius: 10px;
+      }
+      
+      .section4-card:hover {
+        background-color: #003A66;
+        color: white;
+      }
+    
+    .section4-card:hover .section4-card-img{
+        animation: rotateZ 1s ease-in-out;
+        color: #e01e1e;
+        border-radius:50px;
+    }
+    
+    @keyframes rotateZ {
+        0%{
+            transform: rotateZ(0deg);
+        } 
+        50%{
+            transform: rotateZ(360deg);
+        }100%{
+            transform: rotateZ(-360deg);
+            border-radius:0px;
+        }
+    
+    }
+    
+      .section4-card-img {
+        font-size: 40px;
+        background-color: #c2c4c5;
+        border-radius: 10px;
+        padding: 10px;
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.3s ease;
+      }
+      
+      .section4-card-text h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .section4-card-text p {
+        font-size: 14px;
+        color: inherit; 
+      }
+      
+  }
