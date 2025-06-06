@@ -1,6 +1,6 @@
 .article-two-container {
     height: 500px;
-    width: 100vw;
+    width:100% !important;
     background-image: url(../img/breadcrumb.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@
 @media (min-width:882px) {
     .article-two-container {
             height: 500px;
-            width: 100vw;
+            width: 100%;
             background-image: url(../img/breadcrumb.png);
             background-position: center;
             background-repeat: no-repeat;
