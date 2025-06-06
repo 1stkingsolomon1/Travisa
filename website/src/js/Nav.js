@@ -17,13 +17,13 @@ const Nav = () => {
             const scrollY = window.scrollY;
 
             if (scrollY <= 100) {
-                setShowNavbar(true); 
+                setShowNavbar(true);
             } else if (scrollY >= 150 && scrollY < 190) {
-                setShowNavbar(false); 
-            } else{
-                setShowNavbar(true); 
+                setShowNavbar(false);
+            } else {
+                setShowNavbar(true);
             }
-            
+
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -31,33 +31,35 @@ const Nav = () => {
     }, []);
 
     return (
-        <div className={`nav-bar-container ${showNavbar ? 'show' : 'hide'}`}>
-            <nav className='nav-bar'>
-                <div className='nav-first-section'>
-                    <img src={brandLogo} alt="brand logo" title='brand-logo' className='brand-logo' />
-                    <h1 className='nav-first-section-text'>Travisa</h1>
-                </div>
+        <section className="section-nav">
+            <div className={`nav-bar-container ${showNavbar ? 'show' : 'hide'}`}>
+                <nav className='nav-bar'>
+                    <div className='nav-first-section'>
+                        <img src={brandLogo} alt="brand logo" title='brand-logo' className='brand-logo' />
+                        <h1 className='nav-first-section-text'>Travisa</h1>
+                    </div>
 
-                <div className='nav-menu' onClick={handleNavButton}>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                </div>
-            </nav>
+                    <div className='nav-menu' onClick={handleNavButton}>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                        <div className="bar"></div>
+                    </div>
+                </nav>
 
-            <div className={`nav-link ${navShow ? 'show' : 'hide'}`}>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/service">Service</Link>
-                <Link to="/pages">Pages</Link>
-                <Link to="/contact">Contact</Link>
+                <div className={`nav-link ${navShow ? 'show' : 'hide'}`}>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/service">Service</Link>
+                    <Link to="/pages">Pages</Link>
+                    <Link to="/contact">Contact</Link>
 
-                <div className='nav-btns'>
-                    <p className="search-btn"><FaSearch /></p>
-                    <p className="quote-btn">GET A QUOTE</p>
+                    <div className='nav-btns'>
+                        <p className="search-btn"><FaSearch /></p>
+                        <p className="quote-btn">GET A QUOTE</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
