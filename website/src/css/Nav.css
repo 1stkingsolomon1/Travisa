@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-* {
-    outline: 1px solid red;
-}
+
 
 body {
     margin: 0;
@@ -37,7 +35,7 @@ body {
 
 .nav-bar {
     display: flex;
-    width: 90%;
+    width: 80%;
     height: 70px;
     margin: auto;
     border-bottom: 1px solid #c2c4c5;
