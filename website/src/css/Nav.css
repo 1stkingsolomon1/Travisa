@@ -20,8 +20,7 @@ body {
     position: fixed;
     z-index: 5;
     transition: top 0.6s ease;
-    overflow-x: hidden;
-    height: 100px;
+    height: 80px;
 }
 
 .nav-bar-container.hide {
@@ -63,11 +62,11 @@ body {
 .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 20px;
+    width: 70px;
     cursor: pointer;
-    height: 25%;
+    height: 20%;
     background: none;
-    border: 2px solid #003A66;
+    border: none;
     gap: 5px;
     padding: 10px 20px;
     border-radius: 10px;
@@ -94,6 +93,7 @@ body {
     margin-top: -240px;
     transition: all 0.3s ease-in-out, 0.3s opacity ease, visibility 0.3s ease-in-out, ;
     padding-left: 35px;
+    transform: translateY(100px);
 }
 
 .nav-link a {
@@ -113,7 +113,9 @@ body {
     font-weight: 500;
     margin-top: -5px;
     visibility: visible;
+    z-index: 15;
     transform: translateY(0);
+    background-color: #feffff;
 }
 
 .nav-link.show a:nth-child(1) {
