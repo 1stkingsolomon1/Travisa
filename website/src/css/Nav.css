@@ -12,6 +12,7 @@ body {
     padding: 0;
     overflow-x: hidden !important;
     width: 100%;
+    background-color: white;
 }
 
 .nav-bar-container {
